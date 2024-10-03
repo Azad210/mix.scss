@@ -1,0 +1,11 @@
+@mixin bordered($color, $width) {
+    border: $width solid $color;
+  }
+  
+  .myArticle {
+    @include bordered(blue, 10px);  
+  }
+  
+  .myNotes {
+    @include bordered(red, 5px); 
+  }                  
